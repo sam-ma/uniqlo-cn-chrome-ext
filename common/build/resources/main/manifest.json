@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Test Extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-2.2.4.min.js", "kotlin.js", "kotlin.meta.js", "content.js", "content.meta.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["jquery-2.2.4.min.js", "kotlin.js", "kotlin.meta.js", "background.js", "background.meta.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}

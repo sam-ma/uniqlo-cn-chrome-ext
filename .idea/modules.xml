@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/background.iml" filepath="$PROJECT_DIR$/.idea/modules/background.iml" group="background" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/background/background_main.iml" filepath="$PROJECT_DIR$/.idea/modules/background/background_main.iml" group="background" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/background/background_test.iml" filepath="$PROJECT_DIR$/.idea/modules/background/background_test.iml" group="background" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content.iml" filepath="$PROJECT_DIR$/.idea/modules/content.iml" group="content" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content/content_main.iml" filepath="$PROJECT_DIR$/.idea/modules/content/content_main.iml" group="content" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content/content_test.iml" filepath="$PROJECT_DIR$/.idea/modules/content/content_test.iml" group="content" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uniqlo-cn-chrome-ext.iml" filepath="$PROJECT_DIR$/.idea/modules/uniqlo-cn-chrome-ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uniqlo-cn-chrome-ext_main.iml" filepath="$PROJECT_DIR$/.idea/modules/uniqlo-cn-chrome-ext_main.iml" group="uniqlo-cn-chrome-ext" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uniqlo-cn-chrome-ext_test.iml" filepath="$PROJECT_DIR$/.idea/modules/uniqlo-cn-chrome-ext_test.iml" group="uniqlo-cn-chrome-ext" />
+    </modules>
+  </component>
+</project>

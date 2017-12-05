@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="background_main" target="1.8" />
+      <module name="background_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="content_main" target="1.8" />
+      <module name="content_test" target="1.8" />
+      <module name="testExt_main" target="1.8" />
+      <module name="testExt_test" target="1.8" />
+      <module name="uniqlo-cn-chrome-ext_main" target="1.8" />
+      <module name="uniqlo-cn-chrome-ext_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

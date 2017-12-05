@@ -1,0 +1,5 @@
+rootProject.name = 'uniqlo-cn-chrome-ext'
+include 'content'
+include 'background'
+include 'common'
+

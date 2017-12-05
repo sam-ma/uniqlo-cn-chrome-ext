@@ -1,0 +1,37 @@
+buildscript {
+    ext.kotlin_version = '1.2.0'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+group 'test'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'kotlin2js'
+
+compileKotlin2Js.kotlinOptions.sourceMap = true
+compileKotlin2Js.kotlinOptions.outputFile = "${projectDir}/dist/common.js"
+compileKotlin2Js.kotlinOptions.suppressWarnings = true
+compileKotlin2Js.kotlinOptions.verbose = true
+
+build.doLast {
+    // Copy common js to the dist directory
+    copy {
+        includeEmptyDirs = false
+        from "dist/"
+        into "${projectDir}/../dist"
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+}
