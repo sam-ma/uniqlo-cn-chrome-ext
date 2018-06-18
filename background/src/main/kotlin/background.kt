@@ -50,7 +50,7 @@ fun main(args: Array<String>) {
 
 // TODO: cache the rate
 suspend fun getCurrencyRate(base: String, symbol: String) : CurrencyRate =
-    getAndParseResult("https://api.fixer.io/latest?base=${base}&symbols=${symbol}", null, ::parseCurrencyRate)
+    getAndParseResult("https://exchangeratesapi.io/api/latest?base=${base}&symbols=${symbol}", null, ::parseCurrencyRate)
 
 suspend fun search(itemCode: String) : SearchResponse? =
     getAndParseResult(wrapCorsProxy("http://www.uniqlo.com/au/store/catalogsearch/result/?q=${itemCode}"), null, ::parseSearchResponse)
